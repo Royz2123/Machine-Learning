@@ -40,6 +40,7 @@ def main():
     if len(sys.argv) < 3:
         print("Usage: python est_parms.py [FILENAME1] [FILENAME2] ")
 
+    # find the parameters
     mean1, std_dev1 = est_parms(sys.argv[1])
     mean2, std_dev2 = est_parms(sys.argv[2])
 
