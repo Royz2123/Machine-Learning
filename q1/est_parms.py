@@ -48,6 +48,8 @@ def main():
     x = np.linspace(-5, 5, 100)
     plt.plot(x,mlab.normpdf(x, mean1, std_dev1))
     plt.plot(x,mlab.normpdf(x, mean2, std_dev2))
+    plt.axvline(x=-0.5368)
+    plt.axvline(x=0.0892, color="red")
     plt.show()
 
 
