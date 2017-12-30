@@ -102,7 +102,7 @@ def main():
 
     cc, priors = learn_NB_text(sys.argv[1])
     suc_rate = classify_NB_text(sys.argv[2], cc, priors)
-    print suc_rate
+    print("Success rate:\t%f" % suc_rate)
 
 if __name__ == "__main__":
 	main()
