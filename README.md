@@ -14,4 +14,9 @@ Assignments in Machine Learning Course at Haifa University. These assignments in
 
 ## Prequesites
 
-You will need Python2.7 in order to run these examples. Exact documentation is provided in some of the assignements.
+You will need Python3 in order to run these examples. Exact documentation is provided in some of the assignements. Note that many
+of the examples requires prequesites including
+
+* sklearn
+* matplotlib
+* numpy
