@@ -2,6 +2,9 @@
 
 Assignments in Machine Learning Course at Haifa University. These assignments include real Python implementations of some of the following ML techniques.
 
+* Maximum Likelihood Estimation
+* Bayesian Estimation
+* Naive Bayes Estimation
 * KNN
 * Parzen Window
 * PCA
